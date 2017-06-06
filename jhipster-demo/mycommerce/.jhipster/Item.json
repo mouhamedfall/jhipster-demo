@@ -1,0 +1,33 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "productID",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": [
+                "required",
+                "min"
+            ],
+            "fieldValidateRulesMin": "0"
+        },
+        {
+            "fieldName": "login",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170606112053",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "item",
+    "pagination": "no",
+    "microserviceName": "carte",
+    "searchEngine": false
+}

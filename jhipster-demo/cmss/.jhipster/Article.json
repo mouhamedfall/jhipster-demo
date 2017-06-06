@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "content",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170606113644",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "article",
+    "pagination": "no",
+    "microserviceName": "cmss",
+    "searchEngine": false
+}

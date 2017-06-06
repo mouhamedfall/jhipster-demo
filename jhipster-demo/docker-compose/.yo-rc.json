@@ -1,0 +1,14 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "carte",
+      "cmss",
+      "mycommerce"
+    ],
+    "directoryPath": "../",
+    "monitoring": "elk",
+    "serviceDiscoveryType": "eureka",
+    "adminPassword": "admin",
+    "jwtSecretKey": "99e18bb33fac73cad809fe8e5170df9e4ed357bc"
+  }
+}
